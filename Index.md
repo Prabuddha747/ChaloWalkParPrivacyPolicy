@@ -1,8 +1,8 @@
 # Privacy Policy — Chalo Walk Par
 
 **Last updated: July 14, 2026**
-**Developer: Prabuddha **
-**Contact: prabuddhaverma2548@gmail.com**
+*Developer: Prabuddha *
+*Contact: prabuddhaverma2548@gmail.com*
 
 ---
 
