@@ -1,127 +1,90 @@
-# Privacy Policy — Chalo Walk Par
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy - Chalo Walk Par</title>
+<style>
+body{font-family:sans-serif;max-width:800px;margin:40px auto;padding:0 20px;line-height:1.7;color:#222}
+h1{color:#A43700}h2{color:#333;border-bottom:1px solid #eee;padding-bottom:6px;margin-top:32px}
+table{width:100%;border-collapse:collapse;margin:12px 0}
+td,th{border:1px solid #ddd;padding:10px;text-align:left}th{background:#f5f5f5}
+ul{padding-left:20px}
+</style>
+</head>
+<body>
+<h1>Privacy Policy — Chalo Walk Par</h1>
+<p><strong>Last updated:</strong> July 14, 2026<br>
+<strong>Developer:</strong> Prabuddha<br>
+<strong>Contact:</strong> chalowalkpar@gmail.com</p>
 
-**Last updated: July 14, 2026**
-*Developer: Prabuddha*
-*Contact: chalowalkpar@gmail.com*
+<h2>1. Information We Collect</h2>
+<h3>Account Information</h3>
+<ul>
+<li>Email address and display name (Email/Password sign-in)</li>
+<li>Google account name and email (Google Sign-In)</li>
+<li>A randomly assigned name for Guest (anonymous) accounts</li>
+</ul>
+<h3>Health &amp; Fitness Data</h3>
+<ul>
+<li><strong>Step count</strong> — recorded via your device's step sensor</li>
+<li><strong>Walk sessions</strong> — GPS route, distance, duration, and calories burned during active walks</li>
+<li><strong>Health metrics</strong> — height, weight, age, sex entered by you during profile setup</li>
+<li><strong>Heart rate</strong> — read from Health Connect if you grant permission. Never uploaded to our servers.</li>
+</ul>
+<h3>Location Data</h3>
+<ul>
+<li>Precise location is collected <strong>during active walks only</strong> to draw your route on the map</li>
+<li>Location is not collected in the background when you are not on an active walk</li>
+</ul>
+<h3>Device Data</h3>
+<ul>
+<li>FCM token — stored to send push notifications for group invites and join requests</li>
+</ul>
 
----
+<h2>2. How We Use Your Information</h2>
+<table>
+<tr><th>Data</th><th>Purpose</th></tr>
+<tr><td>Steps &amp; walk history</td><td>Show daily progress, weekly trends, and leaderboard rank</td></tr>
+<tr><td>GPS route</td><td>Draw route map on walk completion screen</td></tr>
+<tr><td>Profile (height, weight, age)</td><td>Calculate health metrics shown in Insights</td></tr>
+<tr><td>Display name</td><td>Show in community leaderboard and group screens</td></tr>
+<tr><td>Email</td><td>Account authentication and recovery</td></tr>
+<tr><td>FCM token</td><td>Send group notifications</td></tr>
+</table>
 
-## 1. Information We Collect
+<h2>3. Data Sharing</h2>
+<p>We <strong>do not sell</strong> your personal data. Your display name and step count are visible to other users in the global leaderboard and groups you are a member of. All other data is private to your account only.</p>
 
-### Account Information
-When you create an account, we collect:
-- Email address and display name (Email/Password sign-in)
-- Google account name and email (Google Sign-In)
-- A randomly assigned name for Guest (anonymous) accounts
+<h2>4. Data Storage</h2>
+<p>Your data is stored using Firebase Firestore (Google LLC) for account profile, step records, group data, and notifications, and locally on your device for step history and walk sessions.</p>
+<p>Google's privacy policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
 
-### Health & Fitness Data
-- **Step count** — recorded continuously in the background via your device's step sensor
-- **Walk sessions** — GPS route, distance, duration, and calories burned during active walks
-- **Health metrics** — height, weight, age, and sex (entered by you during profile setup), used to calculate BMI, Health Age, and estimated VO₂ Max
-- **Heart rate** — read from Health Connect (if you grant permission), used only to display resting heart rate in Insights. Never uploaded.
+<h2>5. Health Connect</h2>
+<p>If you grant Health Connect permission, Chalo Walk Par reads heart rate and steps for display in Insights only. This data is read-only and never uploaded to our servers. You can revoke permissions anytime in Android Settings → Health Connect.</p>
 
-### Location Data
-- **Precise location** is collected during active walks only, to draw your route on the map
-- Location is not collected in the background when you are not on an active walk
-- Route coordinates are stored locally and synced to your account in Firebase
+<h2>6. Guest (Anonymous) Accounts</h2>
+<p>No email is collected for guest accounts. Data is stored locally only and is not synced to the cloud. All data is permanently deleted when you sign out or uninstall the app.</p>
 
-### Device Data
-- **FCM token** — stored to send you push notifications (group invites, join requests)
+<h2>7. Data Retention &amp; Deletion</h2>
+<p>You can delete your account from Profile → Sign Out. To request permanent deletion of all your data, email prabuddhaverma2548@gmail.com. We will delete your data within 30 days.</p>
 
----
+<h2>8. Children's Privacy</h2>
+<p>Chalo Walk Par is intended for users 18 years and older. We do not knowingly collect data from children under 13.</p>
 
-## 2. How We Use Your Information
+<h2>9. Permissions Explained</h2>
+<table>
+<tr><th>Permission</th><th>Why it's needed</th></tr>
+<tr><td>Activity Recognition</td><td>Detect steps using device sensor</td></tr>
+<tr><td>Precise Location</td><td>Record GPS route during active walks</td></tr>
+<tr><td>Post Notifications</td><td>Group invites and walk reminders</td></tr>
+<tr><td>Foreground Service</td><td>Keep step counter running while screen is off</td></tr>
+<tr><td>Internet</td><td>Sync data to Firebase, load map tiles</td></tr>
+</table>
 
-| Data | Purpose |
-|---|---|
-| Steps & walk history | Show your daily progress, weekly trends, and leaderboard rank |
-| GPS route | Draw route map on walk completion screen |
-| Profile (height, weight, age) | Calculate health metrics shown in Insights |
-| Display name | Show in community leaderboard and group screens |
-| Email | Account authentication and recovery |
-| FCM token | Send group notifications |
-
----
-
-## 3. Data Sharing
-
-We **do not sell** your personal data.
-
-Your **display name and step count** are visible to other users in:
-- The global leaderboard
-- Groups you are a member of
-
-All other data (GPS routes, health metrics, profile details) is **private to your account only**.
-
----
-
-## 4. Data Storage
-
-Your data is stored using:
-- **Firebase Firestore** (Google LLC) — account profile, step records, group data, notifications
-- **Local device storage** (Room database) — step history and walk sessions cached on your device
-
-Firebase is GDPR-compliant. Data is stored on Google Cloud servers.
-Google's privacy policy: https://policies.google.com/privacy
-
----
-
-## 5. Health Connect
-
-If you grant Health Connect permission, Chalo Walk Par reads:
-- Heart rate (to display resting heart rate in Insights)
-- Steps (to cross-reference with sensor data)
-
-This data is **read-only**, never modified, and never uploaded to our servers.
-You can revoke Health Connect permissions at any time in Android Settings → Health Connect.
-
----
-
-## 6. Guest (Anonymous) Accounts
-
-If you sign in as a Guest:
-- No email is collected
-- Step data and walk history are stored locally only and are **not synced** to the cloud
-- Your data is permanently deleted when you sign out or uninstall the app
-
----
-
-## 7. Data Retention & Deletion
-
-- You can delete your account at any time from the Profile screen → Sign Out
-- To request permanent deletion of all your data from our servers, email us at chalowalkpar@gmail.com
-- We will delete your data within 30 days of your request
-
----
-
-## 8. Children's Privacy
-
-Chalo Walk Par is intended for users **18 years and older**. We do not knowingly collect data from children under 13. If you believe a child has provided us with personal information, please contact us and we will delete it immediately.
-
----
-
-## 9. Permissions Explained
-
-| Permission | Why it's needed |
-|---|---|
-| Activity Recognition | Detect steps using device sensor |
-| Precise Location | Record GPS route during active walks |
-| Post Notifications | Group invites and walk reminders |
-| Foreground Service | Keep step counter running while screen is off |
-| Internet | Sync data to Firebase, load map tiles |
-
----
-
-## 10. Changes to This Policy
-
-We may update this policy as features are added. The "Last updated" date at the top will always reflect the most recent version. Continued use of the app after changes means you accept the updated policy.
-
----
-
-## 11. Contact Us
-
-If you have any questions about this privacy policy or your data:
-
-**Email:** chalowalkpar@gmail.com
-**App:** Chalo Walk Par
-**Developer:** Prabuddha
+<h2>10. Contact Us</h2>
+<p>Email: chalowalkpar@gmail.com<br>
+App: Chalo Walk Par<br>
+Developer: Prabuddha</p>
+</body>
+</html>
