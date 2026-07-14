@@ -2,7 +2,7 @@
 
 **Last updated: July 14, 2026**
 *Developer: Prabuddha*
-*Contact: prabuddhaverma2548@gmail.com*
+*Contact: chalowalkpar@gmail.com*
 
 ---
 
@@ -89,7 +89,7 @@ If you sign in as a Guest:
 ## 7. Data Retention & Deletion
 
 - You can delete your account at any time from the Profile screen → Sign Out
-- To request permanent deletion of all your data from our servers, email us at prabuddhaverma2548@gmail.com
+- To request permanent deletion of all your data from our servers, email us at chalowalkpar@gmail.com
 - We will delete your data within 30 days of your request
 
 ---
@@ -122,6 +122,6 @@ We may update this policy as features are added. The "Last updated" date at the 
 
 If you have any questions about this privacy policy or your data:
 
-**Email:** prabuddhaverma2548@gmail.com
+**Email:** chalowalkpar@gmail.com
 **App:** Chalo Walk Par
 **Developer:** Prabuddha
