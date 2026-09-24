@@ -2,89 +2,1498 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<meta name="description"
+      content="Privacy Policy for Chalo Walk Par">
+
 <title>Privacy Policy - Chalo Walk Par</title>
+
 <style>
-body{font-family:sans-serif;max-width:800px;margin:40px auto;padding:0 20px;line-height:1.7;color:#222}
-h1{color:#A43700}h2{color:#333;border-bottom:1px solid #eee;padding-bottom:6px;margin-top:32px}
-table{width:100%;border-collapse:collapse;margin:12px 0}
-td,th{border:1px solid #ddd;padding:10px;text-align:left}th{background:#f5f5f5}
-ul{padding-left:20px}
+    :root {
+        --primary: #2D6A4F;
+        --primary-light: #D8F3DC;
+        --background: #F7FAF7;
+        --surface: #FFFFFF;
+        --text: #1B1B1B;
+        --secondary: #5F6368;
+        --border: #E1E5E2;
+        --warning-bg: #FFF8E1;
+        --warning-border: #F2C94C;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background: var(--background);
+        color: var(--text);
+        font-family:
+            -apple-system,
+            BlinkMacSystemFont,
+            "Segoe UI",
+            Roboto,
+            Helvetica,
+            Arial,
+            sans-serif;
+        line-height: 1.75;
+    }
+
+    .container {
+        width: min(900px, calc(100% - 32px));
+        margin: 40px auto 60px;
+    }
+
+    .header {
+        background: var(--surface);
+        border-radius: 18px;
+        padding: 32px;
+        border: 1px solid var(--border);
+        box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+        margin-bottom: 24px;
+    }
+
+    .header h1 {
+        margin: 0 0 12px;
+        color: var(--primary);
+        font-size: 32px;
+        line-height: 1.25;
+    }
+
+    .header p {
+        margin: 6px 0;
+        color: var(--secondary);
+    }
+
+    .notice {
+        background: var(--warning-bg);
+        border-left: 4px solid var(--warning-border);
+        padding: 16px 18px;
+        margin: 20px 0;
+        border-radius: 8px;
+    }
+
+    .notice strong {
+        color: #5F4B00;
+    }
+
+    section {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 28px 30px;
+        margin-bottom: 18px;
+    }
+
+    h2 {
+        color: var(--primary);
+        font-size: 22px;
+        line-height: 1.35;
+        margin: 0 0 16px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid var(--border);
+    }
+
+    h3 {
+        color: #333;
+        font-size: 17px;
+        margin-top: 24px;
+        margin-bottom: 8px;
+    }
+
+    p {
+        margin: 10px 0;
+    }
+
+    ul {
+        padding-left: 24px;
+    }
+
+    li {
+        margin: 6px 0;
+    }
+
+    a {
+        color: var(--primary);
+        font-weight: 600;
+        text-decoration: none;
+        word-break: break-word;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 18px 0;
+        font-size: 14px;
+    }
+
+    th,
+    td {
+        border: 1px solid var(--border);
+        padding: 12px;
+        text-align: left;
+        vertical-align: top;
+    }
+
+    th {
+        background: var(--primary-light);
+        color: #214C39;
+        font-weight: 700;
+    }
+
+    .footer {
+        text-align: center;
+        color: var(--secondary);
+        font-size: 14px;
+        margin-top: 30px;
+    }
+
+    .small {
+        font-size: 14px;
+        color: var(--secondary);
+    }
+
+    .important {
+        font-weight: 700;
+    }
+
+    @media (max-width: 600px) {
+        .container {
+            width: min(100% - 20px, 900px);
+            margin-top: 15px;
+        }
+
+        .header,
+        section {
+            padding: 20px;
+            border-radius: 12px;
+        }
+
+        .header h1 {
+            font-size: 27px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        table {
+            display: block;
+            overflow-x: auto;
+            white-space: normal;
+        }
+    }
 </style>
 </head>
+
 <body>
-<h1>Privacy Policy — Chalo Walk Par</h1>
-<p><strong>Last updated:</strong> July 14, 2026<br>
-<strong>Developer:</strong> Prabuddha<br>
-<strong>Contact:</strong> chalowalkpar@gmail.com</p>
 
-<h2>1. Information We Collect</h2>
-<h3>Account Information</h3>
-<ul>
-<li>Email address and display name (Email/Password sign-in)</li>
-<li>Google account name and email (Google Sign-In)</li>
-<li>A randomly assigned name for Guest (anonymous) accounts</li>
-</ul>
-<h3>Health &amp; Fitness Data</h3>
-<ul>
-<li><strong>Step count</strong> — recorded via your device's step sensor</li>
-<li><strong>Walk sessions</strong> — GPS route, distance, duration, and calories burned during active walks</li>
-<li><strong>Health metrics</strong> — height, weight, age, sex entered by you during profile setup</li>
-<li><strong>Heart rate</strong> — read from Health Connect if you grant permission. Never uploaded to our servers.</li>
-</ul>
-<h3>Location Data</h3>
-<ul>
-<li>Precise location is collected <strong>during active walks only</strong> to draw your route on the map</li>
-<li>Location is not collected in the background when you are not on an active walk</li>
-</ul>
-<h3>Device Data</h3>
-<ul>
-<li>FCM token — stored to send push notifications for group invites and join requests</li>
-</ul>
+<div class="container">
 
-<h2>2. How We Use Your Information</h2>
-<table>
-<tr><th>Data</th><th>Purpose</th></tr>
-<tr><td>Steps &amp; walk history</td><td>Show daily progress, weekly trends, and leaderboard rank</td></tr>
-<tr><td>GPS route</td><td>Draw route map on walk completion screen</td></tr>
-<tr><td>Profile (height, weight, age)</td><td>Calculate health metrics shown in Insights</td></tr>
-<tr><td>Display name</td><td>Show in community leaderboard and group screens</td></tr>
-<tr><td>Email</td><td>Account authentication and recovery</td></tr>
-<tr><td>FCM token</td><td>Send group notifications</td></tr>
-</table>
+    <!-- HEADER -->
+    <div class="header">
 
-<h2>3. Data Sharing</h2>
-<p>We <strong>do not sell</strong> your personal data. Your display name and step count are visible to other users in the global leaderboard and groups you are a member of. All other data is private to your account only.</p>
+        <h1>Privacy Policy — Chalo Walk Par</h1>
 
-<h2>4. Data Storage</h2>
-<p>Your data is stored using Firebase Firestore (Google LLC) for account profile, step records, group data, and notifications, and locally on your device for step history and walk sessions.</p>
-<p>Google's privacy policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
+        <p>
+            <strong>Last Updated:</strong>
+            September 24, 2026
+        </p>
 
-<h2>5. Health Connect</h2>
-<p>If you grant Health Connect permission, Chalo Walk Par reads heart rate and steps for display in Insights only. This data is read-only and never uploaded to our servers. You can revoke permissions anytime in Android Settings → Health Connect.</p>
+        <p>
+            <strong>Application:</strong>
+            Chalo Walk Par
+        </p>
 
-<h2>6. Guest (Anonymous) Accounts</h2>
-<p>No email is collected for guest accounts. Data is stored locally only and is not synced to the cloud. All data is permanently deleted when you sign out or uninstall the app.</p>
+        <p>
+            <strong>Developer / Data Fiduciary:</strong>
+            Prabuddha
+        </p>
 
-<h2>7. Data Retention &amp; Deletion</h2>
-<p>You can delete your account from Profile → Sign Out. To request permanent deletion of all your data, email chalowalkpar@gmail.com. We will delete your data within 30 days.</p>
+        <p>
+            <strong>Contact:</strong>
+            <a href="mailto:chalowalkpar@gmail.com">
+                chalowalkpar@gmail.com
+            </a>
+        </p>
 
-<h2>8. Children's Privacy</h2>
-<p>Chalo Walk Par is intended for users 13 years and older. We do not knowingly collect data from children under 13.</p>
+        <div class="notice">
+            <strong>Important:</strong>
+            Chalo Walk Par is a fitness and walking application.
+            We process certain health, fitness, activity and location
+            information to provide the application's core features.
+            We do not use health or fitness information obtained through
+            Android health permissions for personalized advertising.
+        </div>
 
-<h2>9. Permissions Explained</h2>
-<table>
-<tr><th>Permission</th><th>Why it's needed</th></tr>
-<tr><td>Activity Recognition</td><td>Detect steps using device sensor</td></tr>
-<tr><td>Precise Location</td><td>Record GPS route during active walks</td></tr>
-<tr><td>Post Notifications</td><td>Group invites and walk reminders</td></tr>
-<tr><td>Foreground Service</td><td>Keep step counter running while screen is off</td></tr>
-<tr><td>Internet</td><td>Sync data to Firebase, load map tiles</td></tr>
-</table>
+    </div>
 
-<h2>10. Contact Us</h2>
-<p>Email: chalowalkpar@gmail.com<br>
-App: Chalo Walk Par<br>
-Developer: Prabuddha</p>
+
+    <!-- 1 -->
+    <section>
+
+        <h2>1. Introduction</h2>
+
+        <p>
+            Chalo Walk Par ("Chalo Walk Par", "we", "us", "our", or
+            "the App") respects your privacy and is committed to
+            protecting your personal information.
+        </p>
+
+        <p>
+            This Privacy Policy explains what information we collect,
+            why we collect it, how we use and store it, when it may be
+            shared with third-party service providers, and the choices
+            available to you.
+        </p>
+
+        <p>
+            This Privacy Policy applies to the Chalo Walk Par Android
+            application and related services operated by us.
+        </p>
+
+        <p>
+            By using Chalo Walk Par, you acknowledge the practices
+            described in this Privacy Policy.
+        </p>
+
+    </section>
+
+
+    <!-- 2 -->
+    <section>
+
+        <h2>2. Information We Collect</h2>
+
+        <p>
+            We collect information that is reasonably necessary to
+            provide, maintain, secure and improve the functionality
+            of Chalo Walk Par.
+        </p>
+
+
+        <h3>2.1 Account Information</h3>
+
+        <p>
+            Chalo Walk Par currently provides account creation through
+            <strong>Google Sign-In</strong>.
+        </p>
+
+        <p>
+            When you use Google Sign-In, we may receive:
+        </p>
+
+        <ul>
+            <li>
+                The name associated with your Google account.
+            </li>
+
+            <li>
+                The email address associated with your Google account.
+            </li>
+        </ul>
+
+        <p>
+            We use this information to authenticate your account,
+            maintain your profile and provide account-related
+            functionality.
+        </p>
+
+
+        <h3>2.2 Profile Information</h3>
+
+        <p>
+            You may voluntarily provide information such as:
+        </p>
+
+        <ul>
+            <li>Display name</li>
+            <li>Age</li>
+            <li>Sex</li>
+            <li>Height</li>
+            <li>Weight</li>
+            <li>Daily step goal</li>
+        </ul>
+
+        <p>
+            This information may be used to provide fitness-related
+            calculations, application insights and other functionality
+            within Chalo Walk Par.
+        </p>
+
+
+        <h3>2.3 Activity and Fitness Information</h3>
+
+        <p>
+            Depending on the features you use, the App may process:
+        </p>
+
+        <ul>
+            <li>Step count</li>
+            <li>Walking distance</li>
+            <li>Walking duration</li>
+            <li>Estimated calories burned</li>
+            <li>Walking history</li>
+            <li>Fitness progress</li>
+            <li>Leaderboard-related activity</li>
+            <li>Group activity</li>
+        </ul>
+
+
+        <h3>2.4 Location Information</h3>
+
+        <p>
+            If you grant location permission and start an active GPS
+            walk, Chalo Walk Par may collect precise location
+            information to:
+        </p>
+
+        <ul>
+            <li>
+                Display your position on the walking map.
+            </li>
+
+            <li>
+                Record your walking route.
+            </li>
+
+            <li>
+                Calculate walking distance.
+            </li>
+
+            <li>
+                Display your completed walking route.
+            </li>
+
+            <li>
+                Maintain your walk-session history.
+            </li>
+        </ul>
+
+        <p>
+            Precise GPS location is not collected by Chalo Walk Par
+            solely for advertising purposes.
+        </p>
+
+
+        <h3>2.5 Health Connect Information</h3>
+
+        <p>
+            If you grant permission through Android Health Connect,
+            Chalo Walk Par may read permitted health and fitness
+            information, such as step count and heart rate, for
+            functionality within the App.
+        </p>
+
+        <p class="important">
+            Health and fitness information obtained through Android
+            health permissions is not used by us to personalize or
+            target advertisements.
+        </p>
+
+        <p>
+            You can revoke Health Connect permissions at any time
+            through Android Settings → Health Connect.
+        </p>
+
+
+        <h3>2.6 Device and Technical Information</h3>
+
+        <p>
+            Certain technical information may be processed when you
+            use the App, including:
+        </p>
+
+        <ul>
+            <li>Device model and manufacturer</li>
+            <li>Android operating system version</li>
+            <li>Application version</li>
+            <li>Language and regional settings</li>
+            <li>IP address</li>
+            <li>Firebase identifiers</li>
+            <li>Push notification token</li>
+            <li>Advertising identifiers, where applicable</li>
+            <li>Crash information and diagnostic information</li>
+        </ul>
+
+    </section>
+
+
+    <!-- 3 -->
+    <section>
+
+        <h2>3. How We Use Your Information</h2>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Information</th>
+                    <th>Purpose</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>Email / account information</td>
+                    <td>
+                        Authentication, account management,
+                        account recovery and security.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Display name</td>
+                    <td>
+                        Profile, groups and leaderboard functionality.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Steps</td>
+                    <td>
+                        Daily progress, history, trends,
+                        challenges and leaderboard functionality.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>GPS route</td>
+                    <td>
+                        Recording and displaying active walking routes
+                        and calculating distance.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Height / weight / age / sex</td>
+                    <td>
+                        Fitness-related calculations and application
+                        insights.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Heart rate from Health Connect</td>
+                    <td>
+                        Displaying permitted health information
+                        within the App.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>FCM token</td>
+                    <td>
+                        Sending push notifications such as group
+                        invitations and relevant application updates.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Device and technical information</td>
+                    <td>
+                        Security, reliability, diagnostics,
+                        crash analysis and application improvement.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Advertising-related information</td>
+                    <td>
+                        Delivering, measuring and protecting
+                        advertising services through Google AdMob,
+                        subject to applicable privacy requirements
+                        and user choices.
+                    </td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+
+    <!-- 4 -->
+    <section>
+
+        <h2>4. Google AdMob and Advertising</h2>
+
+        <p>
+            Chalo Walk Par may display limited advertisements through
+            <strong>Google AdMob</strong>, a mobile advertising service
+            provided by Google LLC.
+        </p>
+
+        <p>
+            Advertising is used as a limited monetization mechanism
+            to support the operation and continued development of
+            Chalo Walk Par.
+        </p>
+
+
+        <h3>4.1 Information Used for Advertising</h3>
+
+        <p>
+            When Google AdMob is used, Google and its advertising
+            partners may process certain information associated with
+            an advertising request.
+        </p>
+
+        <p>
+            Depending on the applicable advertising configuration,
+            user choices and jurisdiction, this may include:
+        </p>
+
+        <ul>
+            <li>Advertising identifier</li>
+            <li>IP address</li>
+            <li>Device information</li>
+            <li>Operating system information</li>
+            <li>Application information</li>
+            <li>Approximate location information where applicable</li>
+            <li>Information relating to ad requests and interactions</li>
+        </ul>
+
+
+        <h3>4.2 Health and Fitness Data Is Not Used for Advertising</h3>
+
+        <p class="important">
+            Chalo Walk Par does not provide your health or fitness
+            information to Google AdMob for personalized advertising.
+        </p>
+
+        <p>
+            This includes, where applicable:
+        </p>
+
+        <ul>
+            <li>Step count</li>
+            <li>Heart rate</li>
+            <li>Height</li>
+            <li>Weight</li>
+            <li>Age</li>
+            <li>Sex</li>
+            <li>Calories</li>
+            <li>Walking history</li>
+            <li>Fitness metrics</li>
+            <li>GPS walking routes</li>
+        </ul>
+
+        <p>
+            We do not sell your health or fitness information to
+            advertising networks.
+        </p>
+
+
+        <h3>4.3 Personalized and Non-Personalized Advertising</h3>
+
+        <p>
+            Depending on applicable law, the user's privacy choices,
+            the user's location and our advertising configuration,
+            advertisements may be personalized or non-personalized.
+        </p>
+
+        <p>
+            Chalo Walk Par does not currently represent that it has
+            implemented Google's User Messaging Platform (UMP) SDK
+            or another certified consent management platform.
+        </p>
+
+        <p>
+            Where applicable law or Google advertising requirements
+            require consent management for advertising, we will
+            implement and maintain the appropriate consent mechanism
+            before serving advertising that requires such consent.
+        </p>
+
+        <p>
+            Until an applicable consent mechanism is implemented,
+            advertising configurations must not be used in a manner
+            that requires a consent flow that the App does not provide.
+        </p>
+
+
+        <h3>4.4 Google Advertising Information</h3>
+
+        <p>
+            Google may process advertising-related information in
+            accordance with Google's own privacy policies, terms and
+            applicable requirements.
+        </p>
+
+        <p>
+            Google's Privacy Policy:
+        </p>
+
+        <p>
+            <a href="https://policies.google.com/privacy"
+               target="_blank"
+               rel="noopener noreferrer">
+                https://policies.google.com/privacy
+            </a>
+        </p>
+
+        <p>
+            How Google uses information from sites or apps that use
+            its services:
+        </p>
+
+        <p>
+            <a href="https://policies.google.com/technologies/partner-sites"
+               target="_blank"
+               rel="noopener noreferrer">
+                https://policies.google.com/technologies/partner-sites
+            </a>
+        </p>
+
+        <p>
+            Google AdMob:
+        </p>
+
+        <p>
+            <a href="https://admob.google.com/"
+               target="_blank"
+               rel="noopener noreferrer">
+                https://admob.google.com/
+            </a>
+        </p>
+
+    </section>
+
+
+    <!-- 5 -->
+    <section>
+
+        <h2>5. Advertising Privacy and Consent</h2>
+
+        <p>
+            Chalo Walk Par is committed to complying with applicable
+            privacy requirements relating to advertising.
+        </p>
+
+        <p>
+            Where applicable law or Google policies require user
+            consent for personalized advertising or related processing,
+            the App will use an appropriate consent management
+            mechanism before conducting the applicable processing.
+        </p>
+
+        <p>
+            At the time of this Privacy Policy, Chalo Walk Par does
+            not claim that a Google UMP consent flow is currently
+            implemented in the application.
+        </p>
+
+        <p>
+            Users may also have access to advertising and privacy
+            controls provided directly by Google or through their
+            Android device, depending on their location and available
+            settings.
+        </p>
+
+        <p>
+            Google provides additional information regarding its
+            advertising consent requirements here:
+        </p>
+
+        <p>
+            <a href="https://support.google.com/admob/answer/13554116"
+               target="_blank"
+               rel="noopener noreferrer">
+                Google AdMob — Consent Management Requirements
+            </a>
+        </p>
+
+    </section>
+
+
+    <!-- 6 -->
+    <section>
+
+        <h2>6. Firebase and Other Third-Party Services</h2>
+
+        <p>
+            Chalo Walk Par uses third-party services to provide
+            authentication, cloud storage, crash diagnostics,
+            notifications, mapping, advertising and other technical
+            functionality.
+        </p>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Service</th>
+                    <th>Purpose</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>Firebase Authentication</td>
+                    <td>
+                        Google Sign-In authentication.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Firebase Firestore</td>
+                    <td>
+                        Cloud storage and synchronization of applicable
+                        account, activity and group information.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Firebase Cloud Messaging</td>
+                    <td>
+                        Push notifications.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Firebase Crashlytics</td>
+                    <td>
+                        Crash diagnostics, crash reporting and
+                        application stability analysis.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Google Play Services</td>
+                    <td>
+                        Google Sign-In and applicable Android services.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>OSMDroid / OpenStreetMap</td>
+                    <td>
+                        Map display and walking-route visualization.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Google AdMob</td>
+                    <td>
+                        Limited in-app advertising.
+                    </td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+        <p>
+            These third-party providers may process information
+            according to their own privacy policies and applicable
+            contractual or legal requirements.
+        </p>
+
+        <p>
+            Firebase Privacy Information:
+        </p>
+
+        <p>
+            <a href="https://firebase.google.com/support/privacy"
+               target="_blank"
+               rel="noopener noreferrer">
+                https://firebase.google.com/support/privacy
+            </a>
+        </p>
+
+    </section>
+
+
+    <!-- 7 -->
+    <section>
+
+        <h2>7. Location and GPS Walking</h2>
+
+        <p>
+            Chalo Walk Par uses precise location only when necessary
+            for the GPS walking functionality and when the user has
+            granted the required Android permission.
+        </p>
+
+        <p>
+            During an active GPS walk, location information may be
+            processed to create a route and calculate walking
+            statistics.
+        </p>
+
+        <p>
+            Chalo Walk Par does not intentionally use precise GPS
+            walking routes for advertising personalization.
+        </p>
+
+        <p>
+            You may disable location access at any time through
+            Android Settings. Disabling location may prevent the GPS
+            walking functionality from operating correctly.
+        </p>
+
+    </section>
+
+
+    <!-- 8 -->
+    <section>
+
+        <h2>8. Step Tracking and Background Processing</h2>
+
+        <p>
+            Chalo Walk Par uses Android activity-recognition and
+            step-counter capabilities to provide step tracking.
+        </p>
+
+        <p>
+            The application may use an Android foreground service
+            to continue step tracking while the device screen is off
+            or while the application is not actively visible.
+        </p>
+
+        <p>
+            Background step tracking is used to provide the App's
+            core fitness functionality and is not used solely for
+            advertising.
+        </p>
+
+    </section>
+
+
+    <!-- 9 -->
+    <section>
+
+        <h2>9. Health Connect</h2>
+
+        <p>
+            Chalo Walk Par may request access to Android Health
+            Connect information where required for supported fitness
+            features.
+        </p>
+
+        <p>
+            Health Connect access is permission-based. The App can
+            only access data for which you have granted permission.
+        </p>
+
+        <p>
+            Health information obtained through Health Connect is
+            used for fitness-related functionality within Chalo Walk
+            Par.
+        </p>
+
+        <p class="important">
+            Health Connect information is not used by Chalo Walk Par
+            for personalized advertising or interest-based advertising.
+        </p>
+
+        <p>
+            You can revoke Health Connect permissions through:
+        </p>
+
+        <p>
+            <strong>
+                Android Settings → Health Connect
+            </strong>
+        </p>
+
+    </section>
+
+
+    <!-- 10 -->
+    <section>
+
+        <h2>10. Groups, Leaderboards and Social Features</h2>
+
+        <p>
+            Chalo Walk Par provides social fitness functionality such
+            as groups and leaderboards.
+        </p>
+
+        <p>
+            Depending on the feature you use, other Chalo Walk Par
+            users may see information such as:
+        </p>
+
+        <ul>
+            <li>Your display name</li>
+            <li>Your leaderboard rank</li>
+            <li>Step count or activity information used for ranking</li>
+            <li>Group membership</li>
+            <li>Group-related activity</li>
+        </ul>
+
+        <p>
+            Your email address, authentication credentials, Health
+            Connect heart-rate information and precise private GPS
+            route data are not intentionally displayed publicly
+            through the global leaderboard.
+        </p>
+
+    </section>
+
+
+    <!-- 11 -->
+    <section>
+
+        <h2>11. Data Storage</h2>
+
+        <p>
+            Chalo Walk Par uses both local device storage and cloud
+            infrastructure.
+        </p>
+
+        <p>
+            Local application information may be stored using the
+            application's local database and Android storage
+            mechanisms.
+        </p>
+
+        <p>
+            Applicable account and application information may be
+            synchronized with Firebase services, including Firebase
+            Authentication, Firestore and Firebase Cloud Messaging.
+        </p>
+
+        <p>
+            The App may use a local-first approach for certain activity
+            and walking data before synchronizing applicable information
+            with cloud services.
+        </p>
+
+        <p>
+            Third-party infrastructure providers may process or store
+            information in accordance with their applicable privacy
+            policies and legal obligations.
+        </p>
+
+    </section>
+
+
+    <!-- 12 -->
+    <section>
+
+        <h2>12. Data Sharing</h2>
+
+        <p>
+            <strong>
+                We do not sell your personal information.
+            </strong>
+        </p>
+
+        <p>
+            We may share or permit access to information with service
+            providers that help us operate Chalo Walk Par.
+        </p>
+
+        <p>
+            These may include:
+        </p>
+
+        <ul>
+            <li>Firebase</li>
+            <li>Google Play Services</li>
+            <li>Google AdMob</li>
+            <li>Firebase Crashlytics</li>
+            <li>Mapping infrastructure</li>
+            <li>Cloud and technical infrastructure providers</li>
+        </ul>
+
+        <p>
+            Information may also be disclosed where reasonably
+            necessary to:
+        </p>
+
+        <ul>
+            <li>Comply with applicable law or legal process.</li>
+            <li>Prevent fraud or abuse.</li>
+            <li>Protect the security of the App.</li>
+            <li>Protect our legal rights.</li>
+            <li>Investigate unauthorized or harmful activity.</li>
+        </ul>
+
+        <p>
+            We do not provide your health or fitness information to
+            advertising networks for personalized advertising.
+        </p>
+
+    </section>
+
+
+    <!-- 13 -->
+    <section>
+
+        <h2>13. Data Retention</h2>
+
+        <p>
+            We retain personal information only for as long as
+            reasonably necessary to provide the requested services,
+            maintain account functionality, comply with applicable
+            legal obligations, resolve disputes, enforce agreements,
+            prevent fraud and protect the security of our services.
+        </p>
+
+        <p>
+            When personal information is no longer required for a
+            legitimate purpose, we will seek to delete, anonymize or
+            otherwise securely dispose of it where reasonably
+            practicable.
+        </p>
+
+        <p>
+            Certain information may remain temporarily in backups,
+            logs or systems maintained for security and operational
+            purposes and may be removed in accordance with applicable
+            retention procedures.
+        </p>
+
+    </section>
+
+
+    <!-- 14 -->
+    <section>
+
+        <h2>14. Account and Data Deletion</h2>
+
+        <p>
+            Chalo Walk Par currently provides account and data deletion
+            requests through email.
+        </p>
+
+        <h3>14.1 Requesting Account Deletion</h3>
+
+        <p>
+            To request deletion of your Chalo Walk Par account and
+            associated personal information, contact us at:
+        </p>
+
+        <p>
+            <strong>
+                <a href="mailto:chalowalkpar@gmail.com">
+                    chalowalkpar@gmail.com
+                </a>
+            </strong>
+        </p>
+
+        <p>
+            Please provide the email address associated with your
+            Google Sign-In account so that we can identify the account
+            and process the request.
+        </p>
+
+        <p>
+            Upon receiving a valid deletion request, we will take
+            reasonable steps to delete the personal information that
+            we control, subject to applicable law, security
+            requirements, fraud prevention, dispute resolution and
+            legally required retention.
+        </p>
+
+        <p>
+            Deleting your Chalo Walk Par account does not automatically
+            delete information independently maintained by third-party
+            services under their own policies, such as information
+            maintained by Google.
+        </p>
+
+    </section>
+
+
+    <!-- 15 -->
+    <section>
+
+        <h2>15. Your Privacy Rights and Choices</h2>
+
+        <p>
+            Depending on applicable law, you may have rights and
+            choices relating to your personal information.
+        </p>
+
+        <p>
+            These may include:
+        </p>
+
+        <ul>
+            <li>
+                Requesting information about processing of your
+                personal data.
+            </li>
+
+            <li>
+                Requesting correction of inaccurate personal data.
+            </li>
+
+            <li>
+                Requesting deletion of personal data where applicable.
+            </li>
+
+            <li>
+                Withdrawing consent where processing is based on
+                consent.
+            </li>
+
+            <li>
+                Managing Android permissions.
+            </li>
+
+            <li>
+                Managing Health Connect permissions.
+            </li>
+
+            <li>
+                Managing applicable advertising privacy choices.
+            </li>
+        </ul>
+
+        <p>
+            You may contact us using the contact information provided
+            in this Privacy Policy to exercise applicable rights or
+            ask questions about the processing of your personal data.
+        </p>
+
+    </section>
+
+
+    <!-- 16 -->
+    <section>
+
+        <h2>16. India and Digital Personal Data Protection</h2>
+
+        <p>
+            Where applicable to our processing activities, we intend
+            to handle personal data in accordance with applicable
+            Indian data protection and privacy requirements, including
+            the Digital Personal Data Protection Act, 2023 and
+            applicable rules and notifications issued under it.
+        </p>
+
+        <p>
+            We aim to process personal data only for specified and
+            legitimate purposes, provide appropriate notice, maintain
+            reasonable security safeguards, and provide applicable
+            mechanisms for users to exercise their privacy rights.
+        </p>
+
+        <p>
+            Where processing is based on consent, you may withdraw
+            consent subject to applicable legal and technical
+            requirements. Withdrawal of consent may affect our ability
+            to provide features that require the relevant information.
+        </p>
+
+        <p>
+            For privacy questions, requests or complaints regarding
+            processing of personal data, contact:
+        </p>
+
+        <p>
+            <strong>
+                <a href="mailto:chalowalkpar@gmail.com">
+                    chalowalkpar@gmail.com
+                </a>
+            </strong>
+        </p>
+
+    </section>
+
+
+    <!-- 17 -->
+    <section>
+
+        <h2>17. Children's Privacy</h2>
+
+        <p>
+            Chalo Walk Par is intended for users who are
+            <strong>18 years of age or older</strong>.
+        </p>
+
+        <p>
+            We do not knowingly design or operate Chalo Walk Par as a
+            service directed toward children.
+        </p>
+
+        <p>
+            We do not knowingly collect children's personal data for
+            advertising purposes.
+        </p>
+
+        <p>
+            If you believe that a child has provided personal
+            information to us, please contact us at:
+        </p>
+
+        <p>
+            <a href="mailto:chalowalkpar@gmail.com">
+                chalowalkpar@gmail.com
+            </a>
+        </p>
+
+        <p>
+            If we become aware that personal information has been
+            collected from a child in circumstances where such
+            collection was not permitted, we will take reasonable
+            steps to address the situation in accordance with
+            applicable law.
+        </p>
+
+    </section>
+
+
+    <!-- 18 -->
+    <section>
+
+        <h2>18. Security</h2>
+
+        <p>
+            We use reasonable technical and organizational measures
+            intended to protect personal information against
+            unauthorized access, alteration, disclosure, misuse or
+            destruction.
+        </p>
+
+        <p>
+            These measures may include authentication controls,
+            access restrictions, secure communications, cloud-service
+            security controls and appropriate application-level
+            safeguards.
+        </p>
+
+        <p>
+            However, no electronic transmission or storage system can
+            be guaranteed to be completely secure. Therefore, we
+            cannot guarantee absolute security of information.
+        </p>
+
+    </section>
+
+
+    <!-- 19 -->
+    <section>
+
+        <h2>19. International Processing</h2>
+
+        <p>
+            Some third-party service providers used by Chalo Walk Par,
+            including Google and Firebase, may process information on
+            infrastructure located outside India or in multiple
+            countries.
+        </p>
+
+        <p>
+            Where information is processed by such providers, the
+            processing may be subject to their applicable privacy
+            policies, contractual safeguards, security measures and
+            applicable legal requirements.
+        </p>
+
+    </section>
+
+
+    <!-- 20 -->
+    <section>
+
+        <h2>20. Cookies and Similar Technologies</h2>
+
+        <p>
+            The Android application itself does not use browser cookies
+            in the same manner as a traditional website.
+        </p>
+
+        <p>
+            However, third-party services such as Google AdMob may use
+            advertising identifiers, SDK technologies and other
+            technologies to provide and measure advertising services.
+        </p>
+
+        <p>
+            Such processing is governed by the applicable policies and
+            privacy practices of the relevant third-party provider.
+        </p>
+
+    </section>
+
+
+    <!-- 21 -->
+    <section>
+
+        <h2>21. Third-Party Links and Services</h2>
+
+        <p>
+            The App may contain or interact with third-party services,
+            websites or platforms.
+        </p>
+
+        <p>
+            Third-party services operate under their own terms and
+            privacy policies. We are not responsible for the privacy
+            practices of third-party services that we do not control.
+        </p>
+
+        <p>
+            We encourage users to review the privacy policies of
+            third-party services before providing information to them.
+        </p>
+
+    </section>
+
+
+    <!-- 22 -->
+    <section>
+
+        <h2>22. Permissions Used by Chalo Walk Par</h2>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Permission / Capability</th>
+                    <th>Purpose</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>Physical Activity / Activity Recognition</td>
+                    <td>
+                        Detect and track steps using supported
+                        Android activity and sensor functionality.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Precise Location</td>
+                    <td>
+                        Record GPS routes during active walking
+                        sessions.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Notifications</td>
+                    <td>
+                        Deliver relevant application notifications,
+                        including group-related notifications.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Foreground Service</td>
+                    <td>
+                        Continue supported step or GPS walking
+                        functionality while the application is not
+                        actively visible.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Internet / Network Access</td>
+                    <td>
+                        Communicate with Firebase, load maps,
+                        synchronize data and provide applicable
+                        application services.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Health Connect</td>
+                    <td>
+                        Read permitted health and fitness information
+                        when the user explicitly grants access.
+                    </td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+
+    <!-- 23 -->
+    <section>
+
+        <h2>23. Changes to This Privacy Policy</h2>
+
+        <p>
+            We may update this Privacy Policy when the App's
+            functionality, data practices, advertising configuration,
+            third-party services or applicable legal requirements
+            change.
+        </p>
+
+        <p>
+            When material changes are made, we will update the
+            "Last Updated" date at the beginning of this Privacy
+            Policy and, where appropriate, provide additional notice
+            through the App or another reasonable communication method.
+        </p>
+
+        <p>
+            We encourage you to periodically review this Privacy
+            Policy.
+        </p>
+
+    </section>
+
+
+    <!-- 24 -->
+    <section>
+
+        <h2>24. Contact Us</h2>
+
+        <p>
+            If you have any questions, concerns, complaints or requests
+            relating to privacy, personal data, advertising or account
+            deletion, please contact us.
+        </p>
+
+        <p>
+            <strong>App:</strong> Chalo Walk Par
+        </p>
+
+        <p>
+            <strong>Developer / Data Fiduciary:</strong> Prabuddha
+        </p>
+
+        <p>
+            <strong>Email:</strong>
+            <a href="mailto:chalowalkpar@gmail.com">
+                chalowalkpar@gmail.com
+            </a>
+        </p>
+
+        <p>
+            We will make reasonable efforts to respond to privacy
+            requests within an appropriate period and in accordance
+            with applicable law.
+        </p>
+
+    </section>
+
+
+    <div class="footer">
+        © 2026 Chalo Walk Par. All rights reserved.
+    </div>
+
+</div>
+
 </body>
 </html>
